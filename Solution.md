@@ -23,9 +23,12 @@ Other approach that we could consider is develop a Microservice Architecture, if
 the system is going to process big data of orders. Split the Api into microservice could 
 better to handle the process of the 3PL API, the slow one. One microservice can handle
 part and not overload the entire Api.
+Using JMS queue could make a huge improve in the Asynchronous communication with the 3PL API 
+and reliability. I did not remember that at the first sign of Asynchronous, but I would like
+to mention cause. 
+ 
 
 Create container, CI/CD tools and IaaS configration, are the few of the best tools to automate
 the build process of this Api.
- 
- 
+
  
